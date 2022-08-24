@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YLh-01-av7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="grZ-5w-rRy">
+            <objects>
+                <viewController id="YLh-01-av7" customClass="ViewController" customModule="ToyPlaneDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2jC-XA-azB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2NA-lO-qg5">
+                                <rect key="frame" x="177" y="753.5" width="60" height="56.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Kpe-O8-fIu"/>
+                                    <constraint firstAttribute="width" constant="60" id="LnJ-FL-S1c"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor"/>
+                                <state key="normal" backgroundImage="play.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="playTapped:" destination="YLh-01-av7" eventType="touchUpInside" id="qj8-w6-SUk"/>
+                                </connections>
+                            </button>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efp-LM-L6o">
+                                <rect key="frame" x="0.0" y="44" width="414" height="708"/>
+                            </arscnView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nnA-QC-q9j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="efp-LM-L6o" firstAttribute="leading" secondItem="nnA-QC-q9j" secondAttribute="leading" id="cpt-5i-Lz4"/>
+                            <constraint firstItem="nnA-QC-q9j" firstAttribute="trailing" secondItem="efp-LM-L6o" secondAttribute="trailing" id="fZL-jI-DlI"/>
+                            <constraint firstItem="2NA-lO-qg5" firstAttribute="top" secondItem="efp-LM-L6o" secondAttribute="bottom" id="igi-5c-Yl1"/>
+                            <constraint firstItem="2NA-lO-qg5" firstAttribute="centerX" secondItem="2jC-XA-azB" secondAttribute="centerX" id="kC7-fi-tkg"/>
+                            <constraint firstItem="efp-LM-L6o" firstAttribute="top" secondItem="nnA-QC-q9j" secondAttribute="top" id="ncA-o6-ly8"/>
+                            <constraint firstItem="nnA-QC-q9j" firstAttribute="bottom" secondItem="2NA-lO-qg5" secondAttribute="bottom" constant="50" id="tmA-Br-pOX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="efp-LM-L6o" id="fjK-vg-0wd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HPN-QN-y9U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-64" y="160"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play.fill" catalog="system" width="116" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
