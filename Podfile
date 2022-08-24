@@ -7,4 +7,5 @@ target 'ToyPlaneDemo' do
 
   # Pods for ToyPlaneDemo
 pod "Poly"
+pod 'SDWebImage'
 end

@@ -11,15 +11,23 @@ import Poly
 import ARKit
 import SceneKit
 import SceneKit.ModelIO
+import SDWebImage
 class ViewController: UIViewController {
     
     @IBOutlet weak var sceneView: ARSCNView!
     
+    @IBOutlet weak var imgLib: UIImageView!
+    
+    // url: "https://poly.googleapis.com/v1/assets/5vbJ5vildOq?key=AIzaSyDP06_ZC4j0Nyj6I9VcsIJUrijpg0cLQtQ
     let poly = Poly()
+    let polyApiKey = "AIzaSyDP06_ZC4j0Nyj6I9VcsIJUrijpg0cLQtQ"
+    let polyBaseUrl = "https://poly.googleapis.com/v1/"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         poly.apiKey = "AIzaSyDP06_ZC4j0Nyj6I9VcsIJUrijpg0cLQtQ"
-        getObject3D()
+//        getObject3D()
+        getObjectFromPoly()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -27,12 +35,13 @@ class ViewController: UIViewController {
         let configuration = ARWorldTrackingConfiguration()
         configuration.planeDetection = [.horizontal]
         sceneView.session.run(configuration)
-        sceneView.delegate = self
+//        sceneView.delegate = self
         let coachingOverlay = ARCoachingOverlayView()
         coachingOverlay.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         coachingOverlay.session = sceneView.session
         coachingOverlay.goal = .horizontalPlane
         view.addSubview(coachingOverlay)
+        coachingOverlay.center = view.center
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -45,42 +54,80 @@ class ViewController: UIViewController {
             guard let assets = assets else {
                 return
             }
-            let thumb = assets[0].thumbnail?.url
-            let assetId = assets[0].identifier ?? ""
-            print(thumb)
-            let urlStr = assets[0].formats?[0].resources?[0].url ?? ""
-            if let url = URL(string: urlStr) {
-                let asset = MDLAsset(url: url)
-                print(asset)
-                let object = asset.object(at: 0)
-                
-                let node = SCNNode.init(mdlObject: object)
-                print(node)
-                self.sceneView.scene.rootNode.addChildNode(node)
-                
-                
+            if assets.count > 0 {
+                let thumb = assets[0].thumbnail?.url ?? ""
+                self.imgLib.sd_setImage(with: URL(string: thumb))
+                let assetId = assets[0].identifier ?? ""
+                print(thumb)
+                let urlStr = "https://poly.googleapis.com/downloads/fp/1613512927953715/bIIkTuSZWWC/49I8Enepruo/model.obj"
+                if let url = URL(string: urlStr) {
+                    print("url: \(url)")
+                    let mdlAsset = MDLAsset(url: url)
+                    print(mdlAsset)
+                    //                    let object = asset.object(at: 0)
+                    
+                    //                    let node = SCNNode.init(mdlObject: object)
+                    //                    print(node)
+                    //                    self.sceneView.scene.rootNode.addChildNode(node)
+                    
+                    //                    let a = MDLAsset(url: url)
+                    mdlAsset.loadTextures()
+                    print(mdlAsset)
+                    self.sceneView.scene = SCNScene(mdlAsset: mdlAsset)
+                    
+                    
+                }
             }
+            
             
         }
         
         
     }
     
+    func getObjectFromPoly() {
+        poly.list(assetsWithKeywords: ["person"]) { (assets, totalCount, nextPage, error) in
+            guard let assets = assets else {
+                return
+            }
+            if assets.count > 0 {
+                let assetId = assets[0].identifier
+                let urlStr = "\(self.polyBaseUrl)\(assetId)?key=\(self.polyApiKey)"
+                let url = URL(string: urlStr)!
+                let task = URLSession.shared.dataTask(with: url) { data, response, error in
+                    if error != nil || data == nil {
+                        print("Client error!")
+                        return
+                    }
+                    guard let response = response as? HTTPURLResponse, (200...299).contains(response.statusCode) else {
+                        print("Server error!")
+                        return
+                    }
+                   
+                    do {
+                        let json = try JSONSerialization.jsonObject(with: data!, options: .fragmentsAllowed) as! [String : Any]
+                        let formats = json["formats"]
+                        let root = formats["root"]
+                        
+                        print(obj ?? "")
+                    } catch {
+                        print("JSON error: \(error.localizedDescription)")
+                    }
+                }
+                
+                task.resume()
+            }
+            
+        }
+    }
+    
     @IBAction func playTapped(_ sender: Any) {
-//        anchorplane.notifications.runplane.post()
+        //        anchorplane.notifications.runplane.post()
     }
 }
 
-extension ViewController: ARSCNViewDelegate {
-    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
-        // Place content only for anchors found by plane detection.
-        guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
-        
-        // Create a custom object to visualize the plane geometry and extent.
-//        let plane = Plane(anchor: planeAnchor, in: sceneView)
-//
-//        // Add the visualization to the ARKit-managed node so that it tracks
-//        // changes in the plane anchor as plane estimation continues.
-//        node.addChildNode(plane)
-    }
-}
+//extension ViewController: URLSessionDownloadDelegate {
+//    func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didFinishDownloadingTo location: URL) {
+//        <#code#>
+//    }
+//}

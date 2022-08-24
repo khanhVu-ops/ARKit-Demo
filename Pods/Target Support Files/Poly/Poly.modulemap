@@ -1,0 +1,6 @@
+framework module Poly {
+  umbrella header "Poly-umbrella.h"
+
+  export *
+  module * { export * }
+}

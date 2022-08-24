@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-ToyPlaneDemo/Pods-ToyPlaneDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Cache/Cache.framework
+${BUILT_PRODUCTS_DIR}/Disk/Disk.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/Poly/Poly.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
