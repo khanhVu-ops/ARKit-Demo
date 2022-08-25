@@ -15,16 +15,17 @@ import SDWebImage
 class ViewController: UIViewController {
     
     @IBOutlet weak var sceneView: ARSCNView!
+    @IBOutlet weak var cltvListObject: UICollectionView!
     
-    @IBOutlet weak var imgLib: UIImageView!
+    var listObject2D = [Object2DModel]()
+    
     let coachingOverlay = ARCoachingOverlayView()
-    // url: "https://poly.googleapis.com/v1/assets/5vbJ5vildOq?key=AIzaSyDP06_ZC4j0Nyj6I9VcsIJUrijpg0cLQtQ
+    
     let poly = Poly()
     var fileUrl: [String] = []
     var objPathURL: URL?
     var mtlPathURL: URL?
     var totalFilesDownloaded = 0
-    var boxNode: SCNNode?
     override func viewDidLoad() {
         super.viewDidLoad()
         poly.apiKey = "AIzaSyDP06_ZC4j0Nyj6I9VcsIJUrijpg0cLQtQ"
@@ -98,7 +99,6 @@ class ViewController: UIViewController {
                                     return
                                 }
                                 print(asset.identifier)
-                                self?.imgLib.sd_setImage(with: urlImg)
                                 self?.downloadFromUrl()
                                 break
                             }
@@ -144,9 +144,7 @@ class ViewController: UIViewController {
     }
     
    
-    @IBAction func playTapped(_ sender: Any) {
-        //        anchorplane.notifications.runplane.post()
-    }
+ 
 }
 
 extension ViewController: URLSessionDownloadDelegate {
