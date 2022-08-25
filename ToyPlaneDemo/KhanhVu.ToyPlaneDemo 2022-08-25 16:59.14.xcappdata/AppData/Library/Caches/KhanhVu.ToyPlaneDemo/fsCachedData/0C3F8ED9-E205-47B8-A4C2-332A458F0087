@@ -1,0 +1,1438 @@
+{
+  "assets": [
+    {
+      "name": "assets/6dM1J6f6pm9",
+      "displayName": "Cat",
+      "authorName": "Poly by Google",
+      "description": "#cat #feline #mammal #domestic",
+      "createTime": "2017-09-28T19:36:35.422074Z",
+      "updateTime": "2021-06-18T05:37:03.791681Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Mesh_Cat.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623994623791681/6dM1J6f6pm9/dRweVaOyd4o/Mesh_Cat.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Mesh_Cat.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994623791681/6dM1J6f6pm9/dRweVaOyd4o/Mesh_Cat.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "Tex_Cat.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994623791681/6dM1J6f6pm9/dRweVaOyd4o/Tex_Cat.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "594"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Mesh_Cat.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623994623791681/6dM1J6f6pm9/fA_mIl2jzUR/Mesh_Cat.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Mesh_Cat.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994623791681/6dM1J6f6pm9/fA_mIl2jzUR/Mesh_Cat.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "Tex_Cat.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994623791681/6dM1J6f6pm9/fA_mIl2jzUR/Tex_Cat.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "594"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "thumbnail.png",
+        "url": "https://lh3.googleusercontent.com/UBcZpBp1Ty6q0J7m3s5vapsvezKNMfrbCbRJiQpbHqmLEZU6o6CmmX3jCb6Nc5s",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#64b5f6"
+      }
+    },
+    {
+      "name": "assets/3XAJojWxSWz",
+      "displayName": "Lion",
+      "authorName": "Poly by Google",
+      "description": "#animal",
+      "createTime": "2017-10-22T22:15:50.997102Z",
+      "updateTime": "2021-06-26T16:29:04.908929Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Lion.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1624724944908929/3XAJojWxSWz/651X3e2SPWc/Lion.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Lion.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1624724944908929/3XAJojWxSWz/651X3e2SPWc/Lion.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "Lion_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1624724944908929/3XAJojWxSWz/651X3e2SPWc/Lion_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1350"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Lion.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1624724944908929/3XAJojWxSWz/fIoZzmNDVG9/Lion.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Lion.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1624724944908929/3XAJojWxSWz/fIoZzmNDVG9/Lion.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "Lion_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1624724944908929/3XAJojWxSWz/fIoZzmNDVG9/Lion_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1350"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "3XAJojWxSWz.png",
+        "url": "https://lh3.googleusercontent.com/4fijVMzsfFhUGZ0r4YQvsgrKHB02eFW1FrY6uVv_C_b1QuMXHz1J-0AL_19TN8o",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+      }
+    },
+    {
+      "name": "assets/9C-MLNfxaor",
+      "displayName": "Fox",
+      "authorName": "Jake Blakeley",
+      "createTime": "2019-09-03T19:45:04.338524Z",
+      "updateTime": "2021-06-18T05:38:18.784699Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "model.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623994698784699/9C-MLNfxaor/f4ohue3WZgM/model.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "materials.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994698784699/9C-MLNfxaor/f4ohue3WZgM/materials.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "732"
+          },
+          "formatType": "OBJ"
+        },
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623994698784699/9C-MLNfxaor/fgIw32pFZy_/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994698784699/9C-MLNfxaor/fgIw32pFZy_/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "732"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623994698784699/9C-MLNfxaor/fE57hAC1X7F/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994698784699/9C-MLNfxaor/fE57hAC1X7F/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "732"
+          },
+          "formatType": "GLTF"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "thumbnail.png",
+        "url": "https://lh3.googleusercontent.com/x9eqD1OdOiNPqTyXRM-91Y66lwgF3YUO0wuwP_B49YqhfeLvVb3JniFmLu75Bh0E",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+      }
+    },
+    {
+      "name": "assets/3NujIPTNqDP",
+      "displayName": "Gnocchi the Cat",
+      "authorName": "Rose Peng",
+      "description": "My first Blocks creation. ",
+      "createTime": "2017-07-23T03:19:12.369014Z",
+      "updateTime": "2021-06-10T07:52:16.570994Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623311536570994/3NujIPTNqDP/cGQOCeozdw1/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623311536570994/3NujIPTNqDP/cGQOCeozdw1/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "4596"
+          },
+          "formatType": "GLTF"
+        },
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623311536570994/3NujIPTNqDP/3XNk35dQF5A/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623311536570994/3NujIPTNqDP/3XNk35dQF5A/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "4596"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "model.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623311536570994/3NujIPTNqDP/bnNvyNTEi2Z/model.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "materials.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623311536570994/3NujIPTNqDP/bnNvyNTEi2Z/materials.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "4596"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "3NujIPTNqDP.png",
+        "url": "https://lh3.googleusercontent.com/joEBiCn36iirsfeUHUhkZsAALhYC1yg3Favsyd4BTilv0lnUIeII7lj6wAZC9tyw",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4527a0"
+      }
+    },
+    {
+      "name": "assets/8vHYM3zeiB3",
+      "displayName": "Virtual Corgi",
+      "authorName": "Brit Mennuti",
+      "createTime": "2017-08-11T23:48:13.441784Z",
+      "updateTime": "2021-05-09T08:05:43.784024Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1620547543784024/8vHYM3zeiB3/9zC0g_XF-nB/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1620547543784024/8vHYM3zeiB3/9zC0g_XF-nB/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "3560"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "model.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1620547543784024/8vHYM3zeiB3/1I1W58iDO33/model.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "materials.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1620547543784024/8vHYM3zeiB3/1I1W58iDO33/materials.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "3560"
+          },
+          "formatType": "OBJ"
+        },
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1620547543784024/8vHYM3zeiB3/6-arMDycEr-/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1620547543784024/8vHYM3zeiB3/6-arMDycEr-/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "3560"
+          },
+          "formatType": "GLTF"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "8vHYM3zeiB3.png",
+        "url": "https://lh3.googleusercontent.com/SmG-OPl7eIUsF0Ul1ct8D5zGlKdpOTG2SMk-tFg5f9UaUFwGpqxrz5-FFm3nTpPGwQ",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+      }
+    },
+    {
+      "name": "assets/dK08uQ8-Zm9",
+      "displayName": "Arctic Fox (Sitting)",
+      "authorName": "Anonymous",
+      "description": "A posed model of the arctic fox from Daydream Elements.",
+      "createTime": "2017-10-19T16:30:36.608418Z",
+      "updateTime": "2021-06-18T05:33:38.269469Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "ArcticFox_Posed.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623994418269469/dK08uQ8-Zm9/aXo1bfGCT2W/ArcticFox_Posed.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "ArcticFox_Posed.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994418269469/dK08uQ8-Zm9/aXo1bfGCT2W/ArcticFox_Posed.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "ArcticFox_Diffuse.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994418269469/dK08uQ8-Zm9/aXo1bfGCT2W/ArcticFox_Diffuse.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1782"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "ArcticFox_Posed.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623994418269469/dK08uQ8-Zm9/3nMqNZ6NI1E/ArcticFox_Posed.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "ArcticFox_Diffuse.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994418269469/dK08uQ8-Zm9/3nMqNZ6NI1E/ArcticFox_Diffuse.png",
+              "contentType": "image/png"
+            },
+            {
+              "relativePath": "ArcticFox_Posed.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623994418269469/dK08uQ8-Zm9/3nMqNZ6NI1E/ArcticFox_Posed.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1782"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "dK08uQ8-Zm9.png",
+        "url": "https://lh3.googleusercontent.com/kKujQQ1Ewh9ubC9P0OCENC0YS_pRLjHXmEbLsYil-Try_fedCSs1_EC1rAVZw80",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e0e0e0"
+      }
+    },
+    {
+      "name": "assets/4fb-oMr2uUF",
+      "displayName": "Jaguar",
+      "authorName": "Poly by Google",
+      "description": "#cat #feline #mammal #predator",
+      "createTime": "2017-10-23T01:12:22.946994Z",
+      "updateTime": "2021-05-27T12:30:36.495581Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Jaguar.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1622118636495581/4fb-oMr2uUF/4Yvy8r-R73k/Jaguar.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Jaguar.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1622118636495581/4fb-oMr2uUF/4Yvy8r-R73k/Jaguar.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "Jaguar_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1622118636495581/4fb-oMr2uUF/4Yvy8r-R73k/Jaguar_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1020"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Jaguar.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1622118636495581/4fb-oMr2uUF/dKoIITB0U0I/Jaguar.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Jaguar.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1622118636495581/4fb-oMr2uUF/dKoIITB0U0I/Jaguar.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "Jaguar_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1622118636495581/4fb-oMr2uUF/dKoIITB0U0I/Jaguar_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1020"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "4fb-oMr2uUF.png",
+        "url": "https://lh3.googleusercontent.com/SWdx0vCdbta8dnZIEsZZsWQ2Icg9qZkmDaywT1F3lWgbrsPdfWUjZIuYl1Ko48Eu",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ad1457"
+      }
+    },
+    {
+      "name": "assets/dYKICaHpK0c",
+      "displayName": "Cat",
+      "authorName": "Poly by Google",
+      "description": "#feline #pet #kitty ",
+      "createTime": "2017-10-12T00:25:47.708674Z",
+      "updateTime": "2021-05-27T14:42:26.185028Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Cat_01(1).gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1622126546185028/dYKICaHpK0c/fJObbz3o1I2/Cat_01(1).gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Cat_01(1).bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1622126546185028/dYKICaHpK0c/fJObbz3o1I2/Cat_01(1).bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "516"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Cat_01(1).obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1622126546185028/dYKICaHpK0c/8R2n0FNi-eh/Cat_01(1).obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Cat_01.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1622126546185028/dYKICaHpK0c/8R2n0FNi-eh/Cat_01.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "516"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "thumbnail.png",
+        "url": "https://lh3.googleusercontent.com/aNLPL84smLABBmyld3jw8Bh2qdOSlre9jT5Vk-yNQjYHrqB-5yHzTS-jJQaQxsGV",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "presentationParams": {
+        "orientingRotation": {
+          "x": -0.70710678118654746,
+          "w": 0.70710678118654757
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f5f5f5"
+      }
+    },
+    {
+      "name": "assets/06erPZAKJ5Z",
+      "displayName": "Dingo",
+      "authorName": "Poly by Google",
+      "description": "#canine #Australia #dog #mammal",
+      "createTime": "2017-10-22T22:24:44.576604Z",
+      "updateTime": "2021-06-08T12:42:02.707732Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Dingo.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623156122707732/06erPZAKJ5Z/axPTVe1oOov/Dingo.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Dingo.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156122707732/06erPZAKJ5Z/axPTVe1oOov/Dingo.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "Dingo_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156122707732/06erPZAKJ5Z/axPTVe1oOov/Dingo_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "832"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Dingo.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623156122707732/06erPZAKJ5Z/4BbdHBh7OGN/Dingo.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Dingo.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156122707732/06erPZAKJ5Z/4BbdHBh7OGN/Dingo.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "Dingo_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156122707732/06erPZAKJ5Z/4BbdHBh7OGN/Dingo_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "832"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "thumbnail.png",
+        "url": "https://lh3.googleusercontent.com/pCuCeyJB6G1y13ITjPciykd4cbJTjfblNcrnicaBNkvzSw5ad1-q9ykYceQCAgo",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+      }
+    },
+    {
+      "name": "assets/4I1SBFHWuSo",
+      "displayName": "Ferret",
+      "authorName": "Poly by Google",
+      "description": "#animal #pet #fur",
+      "createTime": "2017-10-23T07:21:09.498299Z",
+      "updateTime": "2021-06-11T22:56:53.213378Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Ferret.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623452213213378/4I1SBFHWuSo/4KoNOiNyj3s/Ferret.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Ferret.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623452213213378/4I1SBFHWuSo/4KoNOiNyj3s/Ferret.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "Ferret_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623452213213378/4I1SBFHWuSo/4KoNOiNyj3s/Ferret_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "794"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Ferret.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623452213213378/4I1SBFHWuSo/4rVax1l_dTs/Ferret.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Ferret.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623452213213378/4I1SBFHWuSo/4rVax1l_dTs/Ferret.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "Ferret_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623452213213378/4I1SBFHWuSo/4rVax1l_dTs/Ferret_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "794"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "thumbnail.png",
+        "url": "https://lh3.googleusercontent.com/1pYiy69FLx6WZ2HT75sfIhPfuTmuV2w4iHKLKr_WXxY7Kuqxq3dZroHPhtcl6c0",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9800"
+      }
+    },
+    {
+      "name": "assets/2PDe5PSncTC",
+      "displayName": "Wolf",
+      "authorName": "Poly by Google",
+      "description": "#canine #lupus #mammal",
+      "createTime": "2017-10-23T01:42:19.461706Z",
+      "updateTime": "2021-06-08T12:35:36.155786Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Wolf_01.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623155736155786/2PDe5PSncTC/7-NmvgmMHEv/Wolf_01.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Wolf_01.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623155736155786/2PDe5PSncTC/7-NmvgmMHEv/Wolf_01.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "850"
+          },
+          "formatType": "OBJ"
+        },
+        {
+          "root": {
+            "relativePath": "Wolf_01.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623155736155786/2PDe5PSncTC/bM1VRy9M_TP/Wolf_01.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Wolf_01.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623155736155786/2PDe5PSncTC/bM1VRy9M_TP/Wolf_01.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "850"
+          },
+          "formatType": "GLTF2"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "2PDe5PSncTC.png",
+        "url": "https://lh3.googleusercontent.com/b99nc8pY74qlX-5QNHpt-yfKx-lKIxdLRJfilpwFPKhWMj-cn3-h7czJs7bizeI",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+      }
+    },
+    {
+      "name": "assets/8J_6QDW6au1",
+      "displayName": "Squirrel monkey",
+      "authorName": "Poly by Google",
+      "description": "#animal",
+      "createTime": "2017-10-12T00:50:05.273944Z",
+      "updateTime": "2021-06-08T11:29:14.703089Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "SquirrelMonkey.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623151754703089/8J_6QDW6au1/5qTOBYhF3hT/SquirrelMonkey.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "SquirrelMonkey.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623151754703089/8J_6QDW6au1/5qTOBYhF3hT/SquirrelMonkey.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "SquirrelMonkey_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623151754703089/8J_6QDW6au1/5qTOBYhF3hT/SquirrelMonkey_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1346"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "SquirrelMonkey.OBJ",
+            "url": "https://poly.googleapis.com/downloads/fp/1623151754703089/8J_6QDW6au1/fabUvWT__wF/SquirrelMonkey.OBJ",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "SquirrelMonkey.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623151754703089/8J_6QDW6au1/fabUvWT__wF/SquirrelMonkey.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "SquirrelMonkey_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623151754703089/8J_6QDW6au1/fabUvWT__wF/SquirrelMonkey_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1346"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "thumbnail.png",
+        "url": "https://lh3.googleusercontent.com/49l_YYZYOL1BOo-KfDrCl9Cdc5wy4UyAahnxiKtByjUnEbb7Qo4VhW-Rj06bLb0",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+      }
+    },
+    {
+      "name": "assets/5A3w06FXUup",
+      "displayName": "Tiger",
+      "authorName": "Poly by Google",
+      "description": "#feline #cat #jungle #predator #mammal",
+      "createTime": "2017-10-22T19:50:46.733550Z",
+      "updateTime": "2021-05-27T12:20:02.044912Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Mesh_BengalTiger.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1622118002044912/5A3w06FXUup/32gUhOoR8u8/Mesh_BengalTiger.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Mesh_BengalTiger.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1622118002044912/5A3w06FXUup/32gUhOoR8u8/Mesh_BengalTiger.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "Tex_BengalTiger.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1622118002044912/5A3w06FXUup/32gUhOoR8u8/Tex_BengalTiger.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "744"
+          },
+          "formatType": "OBJ"
+        },
+        {
+          "root": {
+            "relativePath": "Mesh_BengalTiger.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1622118002044912/5A3w06FXUup/bdgUzL7whIO/Mesh_BengalTiger.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Mesh_BengalTiger.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1622118002044912/5A3w06FXUup/bdgUzL7whIO/Mesh_BengalTiger.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "Tex_BengalTiger.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1622118002044912/5A3w06FXUup/bdgUzL7whIO/Tex_BengalTiger.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "744"
+          },
+          "formatType": "GLTF2"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "thumbnail.png",
+        "url": "https://lh3.googleusercontent.com/UZ2sX4TjIDyIsReZ6B5scZWvJ2mWBWRk3gVmNOz-e4QJMmJo1bE2GNzDZ86zmOd70A",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+      }
+    },
+    {
+      "name": "assets/cc7gCdKaQYU",
+      "displayName": "Low Poly Cubone",
+      "authorName": "Tipatat Chennavasin",
+      "description": "#pokemon",
+      "createTime": "2019-10-12T15:18:08.925850Z",
+      "updateTime": "2021-06-10T15:31:04.156080Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623339064156080/cc7gCdKaQYU/bEnoEIYZGfX/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623339064156080/cc7gCdKaQYU/bEnoEIYZGfX/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "636"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623339064156080/cc7gCdKaQYU/aDyzmcgaPZI/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623339064156080/cc7gCdKaQYU/aDyzmcgaPZI/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "636"
+          },
+          "formatType": "GLTF"
+        },
+        {
+          "root": {
+            "relativePath": "model.fbx",
+            "url": "https://poly.googleapis.com/downloads/fp/1623339064156080/cc7gCdKaQYU/cScVn7E6eDH/model.fbx",
+            "contentType": "application/octet-stream"
+          },
+          "formatComplexity": {},
+          "formatType": "FBX"
+        },
+        {
+          "root": {
+            "relativePath": "model.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623339064156080/cc7gCdKaQYU/6f9JNpvBd4z/model.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "materials.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623339064156080/cc7gCdKaQYU/6f9JNpvBd4z/materials.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "313"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "thumbnail.png",
+        "url": "https://lh3.googleusercontent.com/KCrQRg9p0yOtTch3Wqh0OWfB6gc5Bj7FBIHiT2599sWOTjA6d3w4uSxtcZqao15i",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+      }
+    },
+    {
+      "name": "assets/6GBcyh7RSuB",
+      "displayName": "JapaneseWhiteFox",
+      "authorName": "Aimi Sekiguchi",
+      "description": "Remixing!\nOriginalFox made by Jake Blakeley.",
+      "createTime": "2017-07-09T19:55:00.890740Z",
+      "updateTime": "2021-06-13T18:44:13.881789Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "model.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623609853881789/6GBcyh7RSuB/capMPDVJwQC/model.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "materials.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623609853881789/6GBcyh7RSuB/capMPDVJwQC/materials.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "2456"
+          },
+          "formatType": "OBJ"
+        },
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623609853881789/6GBcyh7RSuB/fyRLtz0MdoB/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623609853881789/6GBcyh7RSuB/fyRLtz0MdoB/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "2456"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "model.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623609853881789/6GBcyh7RSuB/3EUia46C-j0/model.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "model.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623609853881789/6GBcyh7RSuB/3EUia46C-j0/model.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "2456"
+          },
+          "formatType": "GLTF"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "6GBcyh7RSuB.png",
+        "url": "https://lh3.googleusercontent.com/KcOKLGeDmXDciIINN3poCUCd-LxUnMIdm8BlhilvHDy9ocQX-d3c-98JAM-9Y_48sw",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#424242"
+      },
+      "remixInfo": {
+        "sourceAsset": [
+          "assets/1DsQKS4G-aj"
+        ]
+      }
+    },
+    {
+      "name": "assets/5Yt3BnZ47s7",
+      "displayName": "Candy",
+      "authorName": "Poly by Google",
+      "description": "#sweets #sugary #snack",
+      "createTime": "2017-10-21T22:36:51.357622Z",
+      "updateTime": "2021-06-03T14:14:07.505462Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Candy_01.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1622729647505462/5Yt3BnZ47s7/0XZZJstJq76/Candy_01.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Candy_01.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1622729647505462/5Yt3BnZ47s7/0XZZJstJq76/Candy_01.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "480"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Candy_01.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1622729647505462/5Yt3BnZ47s7/9w9PtRR_8RI/Candy_01.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Candy_01.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1622729647505462/5Yt3BnZ47s7/9w9PtRR_8RI/Candy_01.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "480"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "5Yt3BnZ47s7.png",
+        "url": "https://lh3.googleusercontent.com/NpnKh4oCpbWQhi0yLIhtZFk1HQL45hw20ksPY2DEyqqciX5OkfKpUAcgLENhIjP3",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f57c00"
+      }
+    },
+    {
+      "name": "assets/dBJgGEu5bHW",
+      "displayName": "Kitten",
+      "authorName": "Poly by Google",
+      "description": "#cat #feline #pet #infant",
+      "createTime": "2017-10-22T22:19:40.376899Z",
+      "updateTime": "2021-06-08T12:41:22.328296Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Mesh_Kitten.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623156082328296/dBJgGEu5bHW/556-q6O9oVl/Mesh_Kitten.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Mesh_Kitten.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156082328296/dBJgGEu5bHW/556-q6O9oVl/Mesh_Kitten.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "Tex_Kitten.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156082328296/dBJgGEu5bHW/556-q6O9oVl/Tex_Kitten.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "650"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Mesh_Kitten.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623156082328296/dBJgGEu5bHW/7Mbgw5pDFZs/Mesh_Kitten.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Mesh_Kitten.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156082328296/dBJgGEu5bHW/7Mbgw5pDFZs/Mesh_Kitten.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "Tex_Kitten.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156082328296/dBJgGEu5bHW/7Mbgw5pDFZs/Tex_Kitten.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "650"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "dBJgGEu5bHW.png",
+        "url": "https://lh3.googleusercontent.com/2OXGYhoz3wcoSkQO6vGn1-QNekX-QAS0EA1ieHddlIAE8roHzwn6vIfHvbNMOL0",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+      }
+    },
+    {
+      "name": "assets/2iYORwFng3_",
+      "displayName": "Raccoon",
+      "authorName": "Poly by Google",
+      "description": "#animal",
+      "createTime": "2017-10-22T20:52:51.709147Z",
+      "updateTime": "2021-06-16T12:40:30.971922Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Raccoon.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623847230971922/2iYORwFng3_/4vgwfaOPr7B/Raccoon.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Raccoon.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623847230971922/2iYORwFng3_/4vgwfaOPr7B/Raccoon.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "Racoon_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623847230971922/2iYORwFng3_/4vgwfaOPr7B/Racoon_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1172"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Raccoon.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623847230971922/2iYORwFng3_/aKfFIUZcoSf/Raccoon.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Raccoon.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623847230971922/2iYORwFng3_/aKfFIUZcoSf/Raccoon.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "Racoon_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623847230971922/2iYORwFng3_/aKfFIUZcoSf/Racoon_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "1172"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "2iYORwFng3_.png",
+        "url": "https://lh3.googleusercontent.com/jVbMNmjAftuWhI-x_bqloJ1bEJx-CzVul-nK4yXjXW_vso_T5IZ9u5iZr2k0PaKD",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#cddc39"
+      }
+    },
+    {
+      "name": "assets/5_mL2EUPZ1N",
+      "displayName": "Raccoon",
+      "authorName": "Poly by Google",
+      "description": "#mammal #faciamask #nocturnal #predator #northamerica",
+      "createTime": "2017-10-12T00:00:41.209433Z",
+      "updateTime": "2021-06-08T11:29:15.165426Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Raccoon.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623151755165426/5_mL2EUPZ1N/aDms0NkcHeO/Raccoon.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Raccoon.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623151755165426/5_mL2EUPZ1N/aDms0NkcHeO/Raccoon.mtl",
+              "contentType": "text/plain"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "808"
+          },
+          "formatType": "OBJ"
+        },
+        {
+          "root": {
+            "relativePath": "Raccoon.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623151755165426/5_mL2EUPZ1N/4apfFT7BEvP/Raccoon.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Raccoon.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623151755165426/5_mL2EUPZ1N/4apfFT7BEvP/Raccoon.bin",
+              "contentType": "application/octet-stream"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "808"
+          },
+          "formatType": "GLTF2"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "5_mL2EUPZ1N.png",
+        "url": "https://lh3.googleusercontent.com/u-S1nm2BMvvdfzYFa-vRhG0du0A2xobalK7M60yBu2QIrACRqyu10yQa_Wb7X8wO",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#90caf9"
+      }
+    },
+    {
+      "name": "assets/8nuCN-gn2s-",
+      "displayName": "Cougar",
+      "authorName": "Poly by Google",
+      "description": "#feline #cat #predator #mountainlion",
+      "createTime": "2017-10-22T21:53:49.210862Z",
+      "updateTime": "2021-06-08T12:44:01.210960Z",
+      "formats": [
+        {
+          "root": {
+            "relativePath": "Cougar.gltf",
+            "url": "https://poly.googleapis.com/downloads/fp/1623156241210960/8nuCN-gn2s-/0MBig-HulE-/Cougar.gltf",
+            "contentType": "model/gltf+json"
+          },
+          "resources": [
+            {
+              "relativePath": "Cougar.bin",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156241210960/8nuCN-gn2s-/0MBig-HulE-/Cougar.bin",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "relativePath": "Cougar_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156241210960/8nuCN-gn2s-/0MBig-HulE-/Cougar_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "980"
+          },
+          "formatType": "GLTF2"
+        },
+        {
+          "root": {
+            "relativePath": "Cougar.obj",
+            "url": "https://poly.googleapis.com/downloads/fp/1623156241210960/8nuCN-gn2s-/a03p3H3MXMP/Cougar.obj",
+            "contentType": "text/plain"
+          },
+          "resources": [
+            {
+              "relativePath": "Cougar.mtl",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156241210960/8nuCN-gn2s-/a03p3H3MXMP/Cougar.mtl",
+              "contentType": "text/plain"
+            },
+            {
+              "relativePath": "Cougar_BaseColor.png",
+              "url": "https://poly.googleapis.com/downloads/fp/1623156241210960/8nuCN-gn2s-/a03p3H3MXMP/Cougar_BaseColor.png",
+              "contentType": "image/png"
+            }
+          ],
+          "formatComplexity": {
+            "triangleCount": "980"
+          },
+          "formatType": "OBJ"
+        }
+      ],
+      "thumbnail": {
+        "relativePath": "8nuCN-gn2s-.png",
+        "url": "https://lh3.googleusercontent.com/ZkRqtO1jpzEV4p8KjzBwt9OYfy7KCMV62H_apIjCmsAStcLctjo1NNR_kvdcUsYb",
+        "contentType": "image/png"
+      },
+      "license": "CREATIVE_COMMONS_BY",
+      "visibility": "PUBLIC",
+      "isCurated": true,
+      "presentationParams": {
+        "orientingRotation": {
+          "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+      }
+    }
+  ],
+  "nextPageToken": "CiH6mf_zKt31-b6MjJqLjO3w9fLV9MeRiryx0piRzYzS__4QFCH5C1zSY_WkTDFOK9GXeXDeBTE88h8I0I8wLTki1QwAZgAAAFAAWgsJibJPBNO-dYYQA2CM1_ONB3IGCPT-nJgG",
+  "totalSize": 527
+}

@@ -16,6 +16,7 @@
 		33BDD93E28B3542400298C60 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDD93D28B3542400298C60 /* Plane.swift */; };
 		CC72564F7DD2834D8E8F27D1 /* Pods_ToyPlaneDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF9AEC2F4DE33BE0737E92 /* Pods_ToyPlaneDemo.framework */; };
 		D8A6C04C28B5CF72005C12B7 /* Doctor_01.gltf in Resources */ = {isa = PBXBuildFile; fileRef = D8A6C04B28B5CF72005C12B7 /* Doctor_01.gltf */; };
+		D8A9DF4428B7095F00523FE6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9DF4328B7095F00523FE6 /* APIService.swift */; };
 		D8ED534228B5E0E5003B6B8D /* UrlTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ED534128B5E0E5003B6B8D /* UrlTypeModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		856AB90AADC58624E566CF97 /* Pods-ToyPlaneDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyPlaneDemo.release.xcconfig"; path = "Target Support Files/Pods-ToyPlaneDemo/Pods-ToyPlaneDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8DFF9AEC2F4DE33BE0737E92 /* Pods_ToyPlaneDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToyPlaneDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A6C04B28B5CF72005C12B7 /* Doctor_01.gltf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doctor_01.gltf; sourceTree = "<group>"; };
+		D8A9DF4328B7095F00523FE6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		D8ED534128B5E0E5003B6B8D /* UrlTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlTypeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				33351FD128A4F24800D957B1 /* Info.plist */,
 				33BDD93D28B3542400298C60 /* Plane.swift */,
 				D8ED534128B5E0E5003B6B8D /* UrlTypeModel.swift */,
+				D8A9DF4328B7095F00523FE6 /* APIService.swift */,
 			);
 			path = ToyPlaneDemo;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				D8ED534228B5E0E5003B6B8D /* UrlTypeModel.swift in Sources */,
 				33351FE028A4F7EE00D957B1 /* ToyPlane.rcproject in Sources */,
 				33BDD93E28B3542400298C60 /* Plane.swift in Sources */,
+				D8A9DF4428B7095F00523FE6 /* APIService.swift in Sources */,
 				33351FC428A4F24700D957B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

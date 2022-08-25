@@ -6,6 +6,8 @@ target 'ToyPlaneDemo' do
   use_frameworks!
 
   # Pods for ToyPlaneDemo
+pod 'Alamofire'
 pod "Poly"
 pod 'SDWebImage'
+
 end

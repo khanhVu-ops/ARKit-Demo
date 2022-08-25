@@ -7,32 +7,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4DF15F51-5E6B-4CAF-A574-0D50C7A073ED"
+            uuid = "8523A7F2-1C70-4E49-AD8F-BD1896B0D655"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ToyPlaneDemo/ViewController.swift"
+            filePath = "ToyPlaneDemo/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "getObject3D()"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "jsonResponse(url:isPublicAPI:method:parameters:encoding:headers:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1483AC47-9486-4A7F-A0A9-64B1554AF78C"
+            uuid = "346FEA35-BBAA-4363-9FEB-CCD56E15CDF4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ToyPlaneDemo/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "getObjectFromPoly()"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "loadObjectToScene()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2723413-7D9E-4F02-A7BC-E30161D28F08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToyPlaneDemo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "loadObjectToScene()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

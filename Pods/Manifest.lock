@@ -23,6 +23,7 @@ PODS:
   - SDWebImage/Core (5.13.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Poly
   - SDWebImage
 
@@ -45,6 +46,6 @@ SPEC CHECKSUMS:
   PromiseKit: 49d70c53d5d20e346beaea4b276b5dd2ab446bb4
   SDWebImage: 0327043dbb9533e75f2eff8445b3df0f2ceca6ac
 
-PODFILE CHECKSUM: 6af108ab2242406f1411c41f1c2be55efae6d9a5
+PODFILE CHECKSUM: dd71312cab741afc33bc07b2fe5e4ae2cb04a961
 
 COCOAPODS: 1.11.3
