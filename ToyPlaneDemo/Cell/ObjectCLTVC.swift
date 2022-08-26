@@ -16,4 +16,11 @@ class ObjectCLTVC: UICollectionViewCell {
         // Initialization code
     }
     
+    func configure(model: Object3DModel) {
+        guard let url = URL(string: model.thumbnail ?? "") else {
+            return
+        }
+        imgObject.sd_setImage(with: url)
+        lbNameObject.text = model.displayName
+    }
 }

@@ -16,10 +16,14 @@
 		33BDD93E28B3542400298C60 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDD93D28B3542400298C60 /* Plane.swift */; };
 		CC72564F7DD2834D8E8F27D1 /* Pods_ToyPlaneDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFF9AEC2F4DE33BE0737E92 /* Pods_ToyPlaneDemo.framework */; };
 		D8A6C04C28B5CF72005C12B7 /* Doctor_01.gltf in Resources */ = {isa = PBXBuildFile; fileRef = D8A6C04B28B5CF72005C12B7 /* Doctor_01.gltf */; };
+		D8A854CC28B867FB003119BE /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A854CB28B867FB003119BE /* Extension+UIImage.swift */; };
+		D8A854CF28B8DCAC003119BE /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A854CE28B8DCAC003119BE /* FocusSquare.swift */; };
+		D8A854D128B8DCCB003119BE /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A854D028B8DCCB003119BE /* FocusSquareSegment.swift */; };
+		D8A854D428B8DD96003119BE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A854D328B8DD96003119BE /* Utilities.swift */; };
 		D8A9DF4428B7095F00523FE6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9DF4328B7095F00523FE6 /* APIService.swift */; };
 		D8A9DF4828B789A700523FE6 /* ObjectCLTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9DF4628B789A700523FE6 /* ObjectCLTVC.swift */; };
 		D8A9DF4928B789A700523FE6 /* ObjectCLTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A9DF4728B789A700523FE6 /* ObjectCLTVC.xib */; };
-		D8A9DF4B28B78A9400523FE6 /* Object2DModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9DF4A28B78A9400523FE6 /* Object2DModel.swift */; };
+		D8A9DF4B28B78A9400523FE6 /* Object3DModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9DF4A28B78A9400523FE6 /* Object3DModel.swift */; };
 		D8ED534228B5E0E5003B6B8D /* UrlTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ED534128B5E0E5003B6B8D /* UrlTypeModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +41,14 @@
 		856AB90AADC58624E566CF97 /* Pods-ToyPlaneDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyPlaneDemo.release.xcconfig"; path = "Target Support Files/Pods-ToyPlaneDemo/Pods-ToyPlaneDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8DFF9AEC2F4DE33BE0737E92 /* Pods_ToyPlaneDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToyPlaneDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A6C04B28B5CF72005C12B7 /* Doctor_01.gltf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doctor_01.gltf; sourceTree = "<group>"; };
+		D8A854CB28B867FB003119BE /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		D8A854CE28B8DCAC003119BE /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		D8A854D028B8DCCB003119BE /* FocusSquareSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
+		D8A854D328B8DD96003119BE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D8A9DF4328B7095F00523FE6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		D8A9DF4628B789A700523FE6 /* ObjectCLTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCLTVC.swift; sourceTree = "<group>"; };
 		D8A9DF4728B789A700523FE6 /* ObjectCLTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObjectCLTVC.xib; sourceTree = "<group>"; };
-		D8A9DF4A28B78A9400523FE6 /* Object2DModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object2DModel.swift; sourceTree = "<group>"; };
+		D8A9DF4A28B78A9400523FE6 /* Object3DModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object3DModel.swift; sourceTree = "<group>"; };
 		D8ED534128B5E0E5003B6B8D /* UrlTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlTypeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +85,9 @@
 		33351FC228A4F24700D957B1 /* ToyPlaneDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D8A854D228B8DD7D003119BE /* Utilities */,
+				D8A854CD28B8DC8F003119BE /* Focus square */,
+				D8A854CA28B867E8003119BE /* Extensions */,
 				D8A9DF4528B7898600523FE6 /* Cell */,
 				33351FC328A4F24700D957B1 /* AppDelegate.swift */,
 				33351FC528A4F24700D957B1 /* ViewController.swift */,
@@ -89,7 +100,7 @@
 				33BDD93D28B3542400298C60 /* Plane.swift */,
 				D8ED534128B5E0E5003B6B8D /* UrlTypeModel.swift */,
 				D8A9DF4328B7095F00523FE6 /* APIService.swift */,
-				D8A9DF4A28B78A9400523FE6 /* Object2DModel.swift */,
+				D8A9DF4A28B78A9400523FE6 /* Object3DModel.swift */,
 			);
 			path = ToyPlaneDemo;
 			sourceTree = "<group>";
@@ -101,6 +112,31 @@
 				856AB90AADC58624E566CF97 /* Pods-ToyPlaneDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8A854CA28B867E8003119BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D8A854CB28B867FB003119BE /* Extension+UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D8A854CD28B8DC8F003119BE /* Focus square */ = {
+			isa = PBXGroup;
+			children = (
+				D8A854CE28B8DCAC003119BE /* FocusSquare.swift */,
+				D8A854D028B8DCCB003119BE /* FocusSquareSegment.swift */,
+			);
+			path = "Focus square";
+			sourceTree = "<group>";
+		};
+		D8A854D228B8DD7D003119BE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D8A854D328B8DD96003119BE /* Utilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		D8A9DF4528B7898600523FE6 /* Cell */ = {
@@ -240,10 +276,14 @@
 				D8A9DF4828B789A700523FE6 /* ObjectCLTVC.swift in Sources */,
 				D8ED534228B5E0E5003B6B8D /* UrlTypeModel.swift in Sources */,
 				33351FE028A4F7EE00D957B1 /* ToyPlane.rcproject in Sources */,
-				D8A9DF4B28B78A9400523FE6 /* Object2DModel.swift in Sources */,
+				D8A9DF4B28B78A9400523FE6 /* Object3DModel.swift in Sources */,
 				33BDD93E28B3542400298C60 /* Plane.swift in Sources */,
+				D8A854D428B8DD96003119BE /* Utilities.swift in Sources */,
+				D8A854CC28B867FB003119BE /* Extension+UIImage.swift in Sources */,
 				D8A9DF4428B7095F00523FE6 /* APIService.swift in Sources */,
 				33351FC428A4F24700D957B1 /* AppDelegate.swift in Sources */,
+				D8A854CF28B8DCAC003119BE /* FocusSquare.swift in Sources */,
+				D8A854D128B8DCCB003119BE /* FocusSquareSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
